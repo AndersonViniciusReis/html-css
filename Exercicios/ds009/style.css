@@ -1,0 +1,28 @@
+        @charset "UTF-8";
+        body {
+            background-image: linear-gradient(to right, blue, rgb(0, 0, 92));
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        
+        h1 {
+            background-color: rgba(1, 52, 146, 0.644);
+            color: rgb(0, 0, 54);
+            font-size: 40px;
+        }
+        
+        a {
+            color: rgb(70, 119, 255);
+        }
+        
+        a:hover {
+            color: aqua;
+        }
+        
+        a:visited {
+            color: aquamarine;
+        }
+        
+        abbr {
+            text-decoration: none;
+        }
