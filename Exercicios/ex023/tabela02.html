@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: lightgray;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            background-color: lightgray;
+            padding: 10px;
+        }
+        thead{
+            background-color: lightgray;
+        }
+        tfoot{
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: blue;
+        }
+        tbody > tr:nth-child(even){
+            background-color:green;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <!-- 
+        ANATOMIAS PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR,TD,TH
+            TBODY
+                TR,TD,TH
+            TFOOT
+                TR,TD,TH
+    -->
+    <table>
+        <caption>população das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col">população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>parana</td>
+                <td>43.758.136</td>
+            </tr>
+            <tr>
+                <td>rio grande do sul</td>
+                <td>12.442.865</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de população:</th>
+                <td>999,999,999</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae, deserunt, tempora doloribus in saepe qui laudantium ullam eos sunt quo! Dolor facere eligendi sapiente quo, fugit sit debitis rerum?</p>
+</body>
+</html>
