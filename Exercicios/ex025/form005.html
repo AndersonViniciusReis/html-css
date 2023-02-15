@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>exemplos de formularios</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="isexm" value="m">
+            <label for="isexm">masculino</label> <br>
+            <input type="radio" name="sexo" id="isexf" value="f">
+            <label for="isexf">feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">futebol</label> <br>
+            <input type="checkbox" name="esbasq" id="iesbasq"> <label for="iesbasq">basquete</label> <br>
+            <input type="checkbox" name="esvol" id="iesvol" checked> <label for="iesvol">volei</label> <br>
+            <input type="checkbox" name="esbase" id="iesbase"> <label for="iesbase">baseball</label> <br>
+            <input type="checkbox" name="eshoq" id="ieshoq"> <label for="ieshoq">hoquei</label> <br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">tenis</label> <br>
+            <input type="checkbox" name="esgol" id="iesgol"> <label for="iesgol">golfe</label> <br>
+            <input type="checkbox" name="esrug" id="iesrug"> <label for="iesrug">rugbi</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
